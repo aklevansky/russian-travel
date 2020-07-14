@@ -1,0 +1,9 @@
+@import url(./__entry/statistics__entry.css);
+@import url(./__data/statistics__data.css);
+
+.statistics {
+    margin: 0;
+    margin-top: 32px;
+    padding: 0;
+    list-style: none;
+}

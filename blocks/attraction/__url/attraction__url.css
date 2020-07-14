@@ -1,0 +1,15 @@
+.attraction__url {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.22;
+
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.attraction__url:hover {
+    opacity: 0.8;
+}

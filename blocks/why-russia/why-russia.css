@@ -1,0 +1,7 @@
+@import url(./__text-wrapper/why-russia__text-wrapper.css);
+@import url(./__title/why-russia__title.css);
+@import url(./__text/why-russia__text.css);
+
+.why-russia {
+   max-width: 100%;
+}

@@ -1,0 +1,10 @@
+.attraction__address {
+    align-self: end;
+}
+
+
+@media screen and (max-width: 425px) {
+    .attraction__address {
+        display: none;
+   }
+}

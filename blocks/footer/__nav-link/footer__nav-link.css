@@ -1,0 +1,16 @@
+.footer__nav-link {
+    display: inline-block;
+    margin: 0;
+    margin-right: 18px;
+    padding: 0;
+}
+
+.footer__nav-link:last-of-type {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__nav-link  {
+        display: block;
+    }
+}
