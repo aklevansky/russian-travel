@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .attraction__text {
         padding: 0 16px;
    }

@@ -1,18 +1,19 @@
 .trains__subtitle {
     max-width: 360px;
+    margin: 0 auto;
     font-family: Inter, sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.22;
-
+    font-weight: bold;
+    font-size: 14px;
+    line-height:1.14;
     text-align: center;
-    color: #FFFFFF;
+    color: white;
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (min-width: 768px) {
     .trains__subtitle  {
-        font-size: 14px;
-        line-height:1.14;
+        font-size: 18px;
+        line-height: 1.22;
     }
 }
