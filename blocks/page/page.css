@@ -1,4 +1,3 @@
-/*
 @font-face {
     font-family: 'Inter'; 
     font-style: normal;
@@ -19,9 +18,9 @@
     src: url(../../fonts/Inter/Inter-Bold.woff) format('woff'),
         url(../../fonts/Inter/Inter-Bold.woff2) format('woff2');
 }
-*/
+
 .page {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
