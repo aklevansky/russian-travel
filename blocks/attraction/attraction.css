@@ -6,48 +6,93 @@
 @import url(./__text/attraction__text.css);
 
 .attraction {
+    width: 100%;
     margin: 0 auto;
     margin-top: 90px;
-    padding: 0;
-    display: grid;
+    width: 100%;
     column-gap: 40px;
     row-gap: 48px;
+    font-family: Inter, sans-serif;
+    color: white;
 }
 
 
-
-
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 768px) {
     .attraction {
-        max-width: 100%;
-        grid-template-columns: 1fr;
-        padding: 0;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
    }
 }
 
-@media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
     .attraction {
-        max-width: 95%;
-        padding: 0 16px;
-        grid-template-columns: 0.966fr 1.044fr;
-        column-gap: 28px;
+        margin: 0;
+        margin-top: 60px;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 340px auto;
+        gap: 28px;
    }
 }
 
 @media screen and (min-width: 1024px) {
     .attraction {
-        max-width: 95%;
-        padding: 24px;
-        grid-template-columns: 1.1fr 0.9fr;
-        column-gap: 28px;
+        margin: 0;
+        margin-top: 60px;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 440px auto;
+        gap: 32px;
    }
 }
 
 @media screen and (min-width: 1280px) {
     .attraction {
-        max-width: 984px;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 0;
+        display: grid;
         grid-template-columns: 460px 484px;
+        gap: 40px;
+   }
+}
+
+
+/* .attraction {
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 460px 484px;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+@media screen and (max-width: 1280px) {
+    .attraction {
+        max-width: 984px;
+        grid-template-columns: 440px 456px;
         column-gap: 40px;
         row-gap: 48px;
    }
 }
+
+@media screen and (max-width: 1024px) {
+    .attraction {
+        max-width: 992px;
+        padding: 0 16px;
+        padding: 24px;
+        grid-template-columns: minmax(340px, 0.9fr) minmax(352, 1.1fr);
+        column-gap: 28px;
+   }
+}
+
+.attraction {
+    max-width: 95%;
+    padding: 0 16px;
+    grid-template-columns: 340px 352px;
+    column-gap: 28px;
+}
+} */
+

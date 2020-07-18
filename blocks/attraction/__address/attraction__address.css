@@ -1,16 +1,30 @@
 .attraction__address {
     align-self: end;
+    padding-bottom: 8px;
 }
 
 @media screen and (max-width: 768px) {
     .attraction__address {
-        padding-left: 16px;
+    display: none;
    }
 }
 
-
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
     .attraction__address {
-        display: none;
+    display: block; 
+   }
+}
+
+@media screen and (min-width: 1024px) {
+    .attraction__address {
+    display: block;
+    padding-bottom: 10px; 
+   }
+}
+
+@media screen and (min-width: 1280px) {
+    .attraction__address {
+    display: block;
+    padding-bottom: 12px; 
    }
 }

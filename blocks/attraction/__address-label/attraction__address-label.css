@@ -1,4 +1,7 @@
 .attraction__address-label {
+        margin: 0;
+        margin-bottom: 12px;
+        padding: 0;
         font-family: Inter, sans-serif;
         font-style: normal;
         font-weight: normal;
@@ -7,4 +10,4 @@
         line-height: 1;
         letter-spacing: 0.2em;
         color: #AAAAAA;
-}
+    }
