@@ -1,4 +1,4 @@
-.trains__link {
+.cover__link {
     min-width: 320px;
     background-image: linear-gradient(
                         rgba(42,44,47, 0.3),
@@ -23,7 +23,7 @@
 управлять по hover.
 */
 
-.trains__link:hover {
+.cover__link:hover {
     background-image: linear-gradient(
                         rgba(42,44,47, 0.8),
                         rgba(42,44,47, 0.8)),
@@ -35,7 +35,7 @@
 
 
 @media screen and (max-width: 1024px) {
-    .trains__link  {
+    .cover__link  {
         margin: 0;
     }
 }

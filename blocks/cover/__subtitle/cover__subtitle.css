@@ -1,4 +1,4 @@
-.trains__subtitle {
+.cover__subtitle {
     max-width: 360px;
     margin: 0 auto;
     font-family: Inter, sans-serif;
@@ -12,8 +12,16 @@
 
 
 @media screen and (min-width: 768px) {
-    .trains__subtitle  {
+    .cover__subtitle  {
         font-size: 18px;
         line-height: 1.22;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle  {
+        max-width: 84.5%;
     }
 }
