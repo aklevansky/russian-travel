@@ -11,9 +11,15 @@
     color: white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .lead__image-caption {
         padding-left: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__image-caption {
+        padding-left: 0;
     }
 }
 
