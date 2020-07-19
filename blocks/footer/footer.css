@@ -5,7 +5,7 @@
 
 .footer {
     margin: 0 auto;
-    padding: 14px 14px;
+    padding: 14px 48px;
     max-width: 1184px;
     display: flex;
     flex-direction: row;
@@ -18,5 +18,18 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: start;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer  {
+        padding: 14px 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer  {
+        padding: 14px 16px;
     }
 }
